@@ -1,8 +1,9 @@
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
+import 'package:dart_application_1/dart_application_1.dart'
+    as dart_application_1;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_application_1.calculate()}!');
-  
+
 //   var name = 'Voyager I';
 //   String name2 = 'Voyager II';
 //   print(name);
@@ -27,51 +28,55 @@ void main(List<String> arguments) {
 //   var nilai = 73;
 
   // if (nilai >= 81) {
-  //   String nilaihuruf = 'A';
   //   print('A');
   // } else if (nilai >= 76) {
-  //   String nilaihuruf = 'B';
   //   print('B');
   // } else if (nilai >= 71) {
-  //   String nilaihuruf = 'C';
   //   print('C');
   // } else if (nilai >= 66) {
-  //   String nilaihuruf = 'D';
   //   print('D');
   // } else {
-  //   String nilaihuruf = 'E';
   //   print('E');
   // }
 
-  void PrintNilai(var hasil) {
-    if (hasil == 'A') {
-      print('Sangat Baik');
-    } else if (hasil == 'B') {
-      print('Baik');
-    } else if (hasil == 'C') {
-      print('Cukup');
-    } else if (hasil == 'D') {
-      print('Kurang');
+  void nilai(var nilai) {
+    if (nilai >= 81) {
+      String nilaihuruf = 'A';
+      print(
+          'Nilai anda $nilai dengan predikat $nilaihuruf anda dinyatakan Lulus');
+    } else if (nilai >= 76) {
+      String nilaihuruf = 'B';
+      print(
+          'Nilai anda $nilai dengan predikat $nilaihuruf anda dinyatakan Lulus');
+    } else if (nilai >= 71) {
+      String nilaihuruf = 'C';
+      print(
+          'Nilai anda $nilai dengan predikat $nilaihuruf anda dinyatakan Lulus');
+    } else if (nilai >= 66) {
+      String nilaihuruf = 'D';
+      print(
+          'Nilai anda $nilai dengan predikat $nilaihuruf anda dinyatakan Tidak Lulus');
     } else {
-      print('Sangat Kurang');
+      String nilaihuruf = 'E';
+      print(
+          'Nilai anda $nilai dengan predikat $nilaihuruf anda dinyatakan Tidak Lulus');
     }
   }
 
-  PrintNilai(80);
+  nilai(80);
 
-    var s = '';
-    for (var i = 0; i < 9; i++) {
-      if (i < 5) {
-        for (var j = 0; j <= i; j++) {
-          s += '* ';
-        }
-      }else{
-        for (var j = 9; j > i; j--) {
-          s += '* ';
-        }
+  var s = '';
+  for (var i = 0; i < 9; i++) {
+    if (i < 5) {
+      for (var j = 0; j <= i; j++) {
+        s += '😆 ';
       }
-      s += '\n';
+    } else {
+      for (var j = 9; j > i; j--) {
+        s += '😆 ';
+      }
     }
-    print(s);
+    s += '\n';
+  }
+  print(s);
 }
-
