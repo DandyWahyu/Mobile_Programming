@@ -1,0 +1,4 @@
+#Thu Oct 05 08:12:50 WIB 2023
+base.0=E\:\\Semester 5\\Pemrograman_Mobile\\Praktikum_P-Mobile\\hello_world\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
