@@ -2,15 +2,22 @@
 
 A new Flutter project.
 
-## Getting Started
+## Praktikum 3
+### 1. Text Widget
+![Screenshot hello world](assets/image/Praktikum3-1.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Image Widget
+![Screenshot hello world](assets/image/Praktikum3-2.png)
+## Praktikum 4
+### 1. Cupertino
+![Screenshot hello world](assets/image/Praktikum4-1.png)
+### 2. Floating Action Button
+![Screenshot hello world](assets/image/Praktikum4-2.png)
+### 3. Scaffold
+![Screenshot hello world](assets/image/Praktikum4-3.png)
+### 4. Dialog
+![Screenshot hello world](assets/image/Praktikum4-4.png)
+### 5. Input dan Selection
+![Screenshot hello world](assets/image/Praktikum4-5.png)
+### 6. Date and Time Pickers
+![Screenshot hello world](assets/image/Praktikum4-6.png)

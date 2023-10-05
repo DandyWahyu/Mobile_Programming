@@ -1,4 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:hello_world_2/basic_widget/fab_widget.dart';
+import 'package:hello_world_2/basic_widget/input_widget.dart';
+import 'package:hello_world_2/basic_widget/loading_cupertino.dart';
+import 'package:hello_world_2/basic_widget/text_widget.dart';
+import 'package:hello_world_2/basic_widget/image_widget.dart';
+import 'package:hello_world_2/basic_widget/scaffold_widget.dart';
+import 'package:hello_world_2/basic_widget/dialog_widget.dart';
+import 'package:hello_world_2/basic_widget/date_time_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +19,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // return const MyCupertino();
+    // return const MyFloatingAction();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -31,7 +42,25 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+
+      // // Praktikum 4 - Cupertino
+      // home: const MyCupertino(),
+
+      // // Praktikum 4 - FAB
+      // home: const MyFloatingAction(),
+
+      // // Praktikum 4 - Scaffold 
+      // home: const MyScaffold(),
+
+      // // Praktikum 4 - Dialog Widget
+      // home: const MyDialog(),
+
+      // // Praktikum 4 - Input dan Selection Widget
+      // home: const MyInput(),
+
+      // // Praktikum 4 - Date and Time Pickers
+      home: const MyDateAndTimePickers(),
     );
   }
 }
@@ -105,9 +134,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            const MyTextWidget(),
+            const MyImageWidget(),
+            
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
