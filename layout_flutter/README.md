@@ -1,16 +1,32 @@
 # layout_flutter
 
-A new Flutter project.
+TUGAS PRAKTIKUM Jobsheet 7
 
-## Getting Started
+## Praktikum 1
 
-This project is a starting point for a Flutter application.
+- Code:<br>
+![Alt text](assets/image/Praktikum1-Code.png)
+- Hasil:<br>
+![Alt text](assets/image/Praktikum1-Hasil.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Praktikum 2
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Code:<br>
+![Alt text](assets/image/Praktikum2-Code.png)
+- Hasil:<br>
+![Alt text](assets/image/Praktikum2-Hasil.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Praktikum 3
+
+- Code:<br>
+![Alt text](assets/image/Praktikum3-Code.png)
+- Hasil:<br>
+![Alt text](assets/image/Praktikum3-Hasil.png)
+
+## Praktikum 4
+
+- Code:<br>
+![Alt text](assets/image/Praktikum4-Code1.png)
+![Alt text](assets/image/Praktikum4-Code2.png)
+- Hasil:<br>
+![Alt text](assets/image/Praktikum4-Hasil.png)

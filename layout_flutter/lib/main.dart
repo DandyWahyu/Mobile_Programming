@@ -7,7 +7,6 @@ void main() {
 class MyApp extends StatelessWidget {
   MyApp({super.key});
 
-  @override
   Widget titleSection = Container(
     padding: const EdgeInsets.all(32.0),
     child: Row(
