@@ -60,16 +60,35 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Jatim Park 1 merupakan tempat rekreasi yang dibangun pertama kali oleh Jatim Park. Tempat wisata ini memiliki konsep taman bermain yang dipadukan dengan taman edukasi. '
+        'Jatim Park 1 memiliki berbagai macam wahana permainan yang bisa dinikmati oleh anak-anak maupun orang dewasa. Selain itu, Jatim Park 1 juga memiliki berbagai macam '
+        'taman edukasi yang bisa dikunjungi oleh anak-anak. Taman edukasi yang ada di Jatim Park 1 ini memiliki konsep yang sangat menarik dan juga unik.'
+        ' Dandy Wahyu SYahputra. 2141720002. '
+        '🙂.',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter Layout: Dandy Wahyu S. 2141720002',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        body: Column(
+        body: ListView(
           children: [
+            Image.asset(
+              'assets/image/JP1.jpeg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),
