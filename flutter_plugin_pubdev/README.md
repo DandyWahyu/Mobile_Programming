@@ -11,4 +11,4 @@
 ![Alt text](assets/Code_RedTextWidget.png)
 ![Alt text](assets/Code_MainDart.png)
 - Hasil:<br>
-![Alt text](assets/Week9_HasilPraktikum.png)
+<br><img src='assets/Week9_HasilPraktikum.png' width='50%'><br>
