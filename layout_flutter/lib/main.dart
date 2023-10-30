@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     child: Row(
       children: [
         Expanded(
-           /* soal 1*/
+          /* soal 1*/
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.only(bottom: 8.0),
                 child: const Text(
-                  'Wisata Gunung di Batu',
+                  'Jawa Timur Park 1',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                   ),
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         ),
         /* soal 3*/
         Icon(
-        Icons.star,
+          Icons.star,
           color: Colors.red[500],
         ),
         const Text('41'),
