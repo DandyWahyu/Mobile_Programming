@@ -56,6 +56,14 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -107,9 +115,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 'You have pushed the button this many times:',
               ),
             ),
+            Text(
+              '$_counter',
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.primary,
+                fontSize: 24,
+              ),
+            )
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+          onPressed: _incrementCounter,
+          tooltip: 'Increment',
+          child: const Icon(Icons.add)),
     );
   }
 }
