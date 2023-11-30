@@ -1,6 +1,6 @@
 # Parktikum 1
 ## Master Plan
-<img src="image/Week11_HasilPraktikum1.gif" width=50%>
+<img src="image/Week11_HasilPraktikum1.gif" width=30%>
 
 # Tugas Praktikum 1
 ## Soal
@@ -36,3 +36,30 @@ Pada Langkah 11, dengan menambahkan listener pada `ScrollController`, setiap kal
 #### Langkah 13 (Dispose):
 
 Pada Langkah 13, method `dispose` dipanggil ketika state dihapus dari pohon widget. Dalam kasus ini, method ini digunakan untuk membersihkan `ScrollController` yang digunakan pada Langkah 11. Ini membantu menghindari memory leak yang dapat terjadi ketika objek tidak lagi digunakan tetapi masih tetap ada di memori.
+
+# Parktikum 2
+## Master Plan
+<img src="image/Week11_HasilPraktikum2.gif" width=30%>
+
+# Tugas Praktikum 2
+## Soal
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+2. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+3. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
+## Jawaban
+
+### Penjelasan InheritedWidget pada Langkah 1:
+
+`InheritedWidget` adalah salah satu konsep dasar dalam Flutter yang memungkinkan data diwariskan ke dalam subtree widget tanpa perlu menuliskan properti secara eksplisit di setiap widget. `InheritedNotifier` adalah turunan dari `InheritedWidget` yang dirancang khusus untuk bekerja dengan `Notifier` (seperti `ValueNotifier`).
+
+Pada Langkah 1, `PlanProvider` adalah sebuah `InheritedNotifier` yang digunakan untuk menyediakan objek `ValueNotifier<Plan>` ke dalam subtree widget. Ini berguna ketika Anda memiliki data yang perlu diakses atau diperbarui oleh banyak widget di dalam subtree, dan Anda ingin melakukan hal tersebut tanpa perlu menyalin properti ke setiap widget tersebut.
+
+### Maksud dari Method di Langkah 3:
+
+1. **`completedCount`**: Method ini menghitung jumlah tugas yang sudah selesai (`complete`) dalam objek `Plan`. Ini memberikan informasi tentang berapa banyak tugas yang telah diselesaikan.
+
+2. **`completenessMessage`**: Method ini menghasilkan pesan string yang menyatakan berapa banyak tugas yang telah selesai dari total tugas yang ada. Ini memberikan informasi tentang tingkat kelengkapan (completeness) dari daftar tugas.
+
+Tambahannya ini memberikan fungsionalitas tambahan pada objek `Plan` untuk memberikan informasi lebih lanjut tentang status tugas dalam daftar rencana.
