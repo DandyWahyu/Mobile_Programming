@@ -19,5 +19,12 @@
    > <img src="image/Soal4.gif" width=50%>
    > <br>Pada langkah 1 kita menginisialisasikan 3 method dengan menggunakan fungsi `Future`.delayed dengan lama 3 detik dengan return nilai tertentu. Nah pada langkah ke 2 kita menginisialiasasikan method `count()` yang digunakan untuk memanggil ketiga method sebelumnya dan mengganti variable result dengan jumlah nilai kembali dari ketiga method tersebut.
 
+## Praktikum 3
+5. Jelaskan maksud kode langkah 2 tersebut!
+   Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+
+   > <img src="image/Soal5.gif" width=50%>
+   > <br>Fungsi kode langkah 2 adalah untuk menginisialisasikan `Completer` untuk mengembalikan nilai hasil `Future` nantinnya.
+
 
 
